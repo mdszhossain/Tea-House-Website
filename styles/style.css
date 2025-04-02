@@ -5,3 +5,48 @@
 * {
     font-family: "Manrope";
 }
+
+/* General Styling */
+.menu a {
+    font-weight: 800;
+    font-size: 1rem;
+}
+.btn-primary {
+    font-size: 1rem;
+}
+
+/* Extra Small Screen */
+@media (min-width: 320px) and (max-width: 639px) {
+    .hero-content {
+        text-align: center;
+    }
+    .hero-content img {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .hero-heading {
+        font-size: 2.5rem;
+    }
+    .image-badge {
+        margin: -30px auto;
+    }
+    .badge-heading {
+        font-size: 1.25rem;
+    }
+    .badge-text {
+        text-align: left;
+    }
+    .hero-description {
+        width: 80%;
+        margin: 0px auto;
+    }
+    .badge-description {
+        font-size: 0.875rem;
+    }
+    .image-badge {
+        padding: 10px 5px;
+    }
+    .badge-star {
+        font-size: 20px;
+    }
+}
