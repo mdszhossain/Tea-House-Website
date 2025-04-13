@@ -63,6 +63,9 @@
 .cards {
     border: 1px solid var(--Dark-05, #D2D2D2);
 }
+.footer {
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+}
 
 
 
